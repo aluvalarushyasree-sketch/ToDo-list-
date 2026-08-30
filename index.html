@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>TaskFlow — To-Do List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+    <header class="app-header">
+      <h1>TaskFlow</h1>
+      <p class="subtitle">Stay on top of your day</p>
+    </header>
+
+    <form id="task-form" class="task-form">
+      <input type="text" id="task-input" placeholder="Add a new task..." autocomplete="off" required>
+      <select id="priority-select">
+        <option value="low">Low</option>
+        <option value="medium" selected>Medium</option>
+        <option value="high">High</option>
+      </select>
+      <button type="submit">Add</button>
+    </form>
+
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="active">Active</button>
+      <button class="filter-btn" data-filter="completed">Completed</button>
+    </div>
+
+    <ul id="task-list" class="task-list"></ul>
+
+    <footer class="app-footer">
+      <span id="task-count">0 tasks left</span>
+      <button id="clear-completed">Clear completed</button>
+    </footer>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
