@@ -1,31 +1,31 @@
-# YouTube Clone
+# ToDo List Application
 
 ## Description
-A frontend clone of the YouTube homepage built using HTML and CSS. The project focuses on layout design, responsive structure, Flexbox, and CSS Grid.
+A simple and interactive ToDo List application built using HTML, CSS, and JavaScript. Users can add, delete, and manage daily tasks efficiently.
 
 ## Features
-- YouTube-inspired layout
-- Navigation bar
-- Sidebar
-- Video grid section
-- Responsive design
+- Add new tasks
+- Delete tasks
+- Dynamic task updates
+- User-friendly interface
 
 ## Technologies Used
 - HTML
 - CSS
+- JavaScript
 
 ## Project Structure
-youtube-clone/
+ToDo-list/
 ├── index.html
-└── style.css
+├── style.css
+└── script.js
 
 ## How to Run
-1. Download the project.
+1. Download the project files.
 2. Open index.html in a browser.
 
 ## Learning Outcomes
-- HTML Structure
-- CSS Styling
-- Flexbox
-- CSS Grid
-- Responsive Design
+- JavaScript Functions
+- Arrays
+- DOM Manipulation
+- Event Handling
